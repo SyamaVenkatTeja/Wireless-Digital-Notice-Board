@@ -1,0 +1,422 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\v24he5v4\ARM\Veera_Major_Project\project.uvproj
+Project File Date:  08/04/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling delay.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h: delay.c: 1 warning, 0 errors
+compiling dml.c...
+dml.c(2): error:  #5: cannot open source input file "delay.h": No such file or directory
+dml.c:   #include "delay.h"
+dml.c:                     ^
+dml.c: dml.c: 0 warnings, 1 error
+compiling i2c.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+i2c.c(3): error:  #5: cannot open source input file "delay.h": No such file or directory
+i2c.c:   #include "delay.h"
+i2c.c:                     ^
+i2c.c: i2c.c: 1 warning, 1 error
+compiling i2c_eeprom.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+i2c_eeprom.c(4): error:  #5: cannot open source input file "delay.h": No such file or directory
+i2c_eeprom.c:   #include "delay.h"
+i2c_eeprom.c:                     ^
+i2c_eeprom.c: i2c_eeprom.c: 2 warnings, 1 error
+compiling lcd.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+lcd_defines.h(24): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:   #define LCD_EN   6
+lcd_defines.h:                     ^
+lcd.c(5): error:  #5: cannot open source input file "delay.h": No such file or directory
+lcd.c:   #include "delay.h"
+lcd.c:                     ^
+lcd.c: lcd.c: 2 warnings, 1 error
+compiling main.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+main.c(5): error:  #5: cannot open source input file "delay.h": No such file or directory
+main.c:   #include "delay.h"
+main.c:                     ^
+main.c: main.c: 1 warning, 1 error
+compiling sipo.c...
+sipo.c(2): error:  #5: cannot open source input file "delay.h": No such file or directory
+sipo.c:   #include "delay.h"
+sipo.c:                     ^
+sipo.c: sipo.c: 0 warnings, 1 error
+compiling uart_init.c...
+uart_init.c(120): warning:  #1-D: last line of file ends without a newline
+uart_init.c:   } */
+uart_init.c:       ^
+uart_init.c: uart_init.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling delay.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h: delay.c: 1 warning, 0 errors
+compiling dml.c...
+dml.c(2): error:  #5: cannot open source input file "delay.h": No such file or directory
+dml.c:   #include "delay.h"
+dml.c:                     ^
+dml.c: dml.c: 0 warnings, 1 error
+compiling i2c.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+i2c.c(3): error:  #5: cannot open source input file "delay.h": No such file or directory
+i2c.c:   #include "delay.h"
+i2c.c:                     ^
+i2c.c: i2c.c: 1 warning, 1 error
+compiling i2c_eeprom.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+i2c_eeprom.c(4): error:  #5: cannot open source input file "delay.h": No such file or directory
+i2c_eeprom.c:   #include "delay.h"
+i2c_eeprom.c:                     ^
+i2c_eeprom.c: i2c_eeprom.c: 2 warnings, 1 error
+compiling lcd.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+lcd_defines.h(24): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:   #define LCD_EN   6
+lcd_defines.h:                     ^
+lcd.c(5): error:  #5: cannot open source input file "delay.h": No such file or directory
+lcd.c:   #include "delay.h"
+lcd.c:                     ^
+lcd.c: lcd.c: 2 warnings, 1 error
+compiling main.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+main.c(5): error:  #5: cannot open source input file "delay.h": No such file or directory
+main.c:   #include "delay.h"
+main.c:                     ^
+main.c: main.c: 1 warning, 1 error
+compiling sipo.c...
+sipo.c(2): error:  #5: cannot open source input file "delay.h": No such file or directory
+sipo.c:   #include "delay.h"
+sipo.c:                     ^
+sipo.c: sipo.c: 0 warnings, 1 error
+compiling uart_init.c...
+uart_init.c(120): warning:  #1-D: last line of file ends without a newline
+uart_init.c:   } */
+uart_init.c:       ^
+uart_init.c: uart_init.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling delay.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h: delay.c: 1 warning, 0 errors
+compiling dml.c...
+dml.c(2): error:  #5: cannot open source input file "delay.h": No such file or directory
+dml.c:   #include "delay.h"
+dml.c:                     ^
+dml.c: dml.c: 0 warnings, 1 error
+compiling i2c.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+i2c.c(3): error:  #5: cannot open source input file "delay.h": No such file or directory
+i2c.c:   #include "delay.h"
+i2c.c:                     ^
+i2c.c: i2c.c: 1 warning, 1 error
+compiling i2c_eeprom.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+i2c_eeprom.c(4): error:  #5: cannot open source input file "delay.h": No such file or directory
+i2c_eeprom.c:   #include "delay.h"
+i2c_eeprom.c:                     ^
+i2c_eeprom.c: i2c_eeprom.c: 2 warnings, 1 error
+compiling lcd.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+lcd_defines.h(24): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:   #define LCD_EN   6
+lcd_defines.h:                     ^
+lcd.c(5): error:  #5: cannot open source input file "delay.h": No such file or directory
+lcd.c:   #include "delay.h"
+lcd.c:                     ^
+lcd.c: lcd.c: 2 warnings, 1 error
+compiling main.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+main.c(5): error:  #5: cannot open source input file "delay.h": No such file or directory
+main.c:   #include "delay.h"
+main.c:                     ^
+main.c: main.c: 1 warning, 1 error
+compiling sipo.c...
+sipo.c(2): error:  #5: cannot open source input file "delay.h": No such file or directory
+sipo.c:   #include "delay.h"
+sipo.c:                     ^
+sipo.c: sipo.c: 0 warnings, 1 error
+compiling uart_init.c...
+uart_init.c(120): warning:  #1-D: last line of file ends without a newline
+uart_init.c:   } */
+uart_init.c:       ^
+uart_init.c: uart_init.c: 1 warning, 0 errors
+Target not created
+Build target 'Target 1'
+assembling Startup.s...
+compiling delay.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h: delay.c: 1 warning, 0 errors
+compiling dml.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+dml.h(2): warning:  #1-D: last line of file ends without a newline
+dml.h:   void display_str(unsigned char *ch,unsigned int delay);
+dml.h:                                                          ^
+dml.h: dml.c: 3 warnings, 0 errors
+compiling i2c.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+delay.h: i2c.c: 3 warnings, 0 errors
+compiling i2c_eeprom.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+delay.h: i2c_eeprom.c: 4 warnings, 0 errors
+compiling lcd.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+lcd_defines.h(24): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:   #define LCD_EN   6
+lcd_defines.h:                     ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+lcd.c(100): warning:  #1-D: last line of file ends without a newline
+lcd.c:     }
+lcd.c:      ^
+lcd.c: lcd.c: 5 warnings, 0 errors
+compiling main.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+uart.h(7): warning:  #1-D: last line of file ends without a newline
+uart.h:   void UART0_Int(unsigned int);
+uart.h:                                ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+i2c_eeprom.h(11): warning:  #1-D: last line of file ends without a newline
+i2c_eeprom.h:   #endif
+i2c_eeprom.h:         ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+lcd.h(13): warning:  #1-D: last line of file ends without a newline
+lcd.h:   u8 switch_pressed(void);
+lcd.h:                           ^
+dml.h(2): warning:  #1-D: last line of file ends without a newline
+dml.h:   void display_str(unsigned char *ch,unsigned int delay);
+dml.h:                                                          ^
+main.c(22): warning:  #550-D: variable "pass_len" was set but never used
+main.c:           int l,pass_len;
+main.c:                 ^
+main.c: main.c: 12 warnings, 0 errors
+compiling sipo.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+delay.h: sipo.c: 2 warnings, 0 errors
+compiling uart_init.c...
+uart_init.c(120): warning:  #1-D: last line of file ends without a newline
+uart_init.c:   } */
+uart_init.c:       ^
+uart_init.c: uart_init.c: 1 warning, 0 errors
+linking...
+Program Size: Code=5812 RO-data=32 RW-data=824 ZI-data=1560  
+FromELF: creating hex file...
+"veera.axf" - 0 Error(s), 31 Warning(s).
+Build target 'Target 1'
+assembling Startup.s...
+compiling delay.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h: delay.c: 1 warning, 0 errors
+compiling dml.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+dml.h(2): warning:  #1-D: last line of file ends without a newline
+dml.h:   void display_str(unsigned char *ch,unsigned int delay);
+dml.h:                                                          ^
+dml.h: dml.c: 3 warnings, 0 errors
+compiling i2c.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+delay.h: i2c.c: 3 warnings, 0 errors
+compiling i2c_eeprom.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+delay.h: i2c_eeprom.c: 4 warnings, 0 errors
+compiling lcd.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+lcd_defines.h(24): warning:  #1-D: last line of file ends without a newline
+lcd_defines.h:   #define LCD_EN   6
+lcd_defines.h:                     ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+lcd.c(100): warning:  #1-D: last line of file ends without a newline
+lcd.c:     }
+lcd.c:      ^
+lcd.c: lcd.c: 5 warnings, 0 errors
+compiling main.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+uart.h(7): warning:  #1-D: last line of file ends without a newline
+uart.h:   void UART0_Int(unsigned int);
+uart.h:                                ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+i2c_eeprom.h(11): warning:  #1-D: last line of file ends without a newline
+i2c_eeprom.h:   #endif
+i2c_eeprom.h:         ^
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+lcd.h(13): warning:  #1-D: last line of file ends without a newline
+lcd.h:   u8 switch_pressed(void);
+lcd.h:                           ^
+dml.h(2): warning:  #1-D: last line of file ends without a newline
+dml.h:   void display_str(unsigned char *ch,unsigned int delay);
+dml.h:                                                          ^
+main.c(22): warning:  #550-D: variable "pass_len" was set but never used
+main.c:           int l,pass_len;
+main.c:                 ^
+main.c: main.c: 12 warnings, 0 errors
+compiling sipo.c...
+types.h(8): warning:  #1-D: last line of file ends without a newline
+types.h:   typedef double f64;
+types.h:                      ^
+delay.h(7): warning:  #1-D: last line of file ends without a newline
+delay.h:   void delay_s(u32 dlyS);
+delay.h:                          ^
+delay.h: sipo.c: 2 warnings, 0 errors
+compiling uart_init.c...
+uart_init.c(120): warning:  #1-D: last line of file ends without a newline
+uart_init.c:   } */
+uart_init.c:       ^
+uart_init.c: uart_init.c: 1 warning, 0 errors
+linking...
+Program Size: Code=5812 RO-data=32 RW-data=824 ZI-data=1560  
+FromELF: creating hex file...
+"veera.axf" - 0 Error(s), 31 Warning(s).
